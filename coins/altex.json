@@ -1,0 +1,6 @@
+{
+    "name": "Altex",
+    "symbol": "ALTEX",
+    "algorithm": "x11",
+    "mposDiffMultiplier": 256
+}

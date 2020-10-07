@@ -1,0 +1,7 @@
+-rpcuser=username -rpcpassword=password -printtoconsole -rpcallowip=127.0.0.1 -printtoconsole
+
+curl --user username --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getnewaddress","params":[]}' -H 'content-type:text/plain;' http://127.0.0.1:22983
+curl --user username --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getwalletinfo","params":[]}' -H 'content-type:text/plain;' http://127.0.0.1:7234
+
+https://dashcore.readme.io/docs/core-api-ref-remote-procedure-calls-wallet#getwalletinfo
+https://developer.bitcoin.org/reference/rpc/getnewaddress.html

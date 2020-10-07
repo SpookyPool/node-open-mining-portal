@@ -1,0 +1,6 @@
+{
+    "name": "StakeCubeCoin",
+    "symbol": "SCC",
+    "algorithm": "x11",
+    "mposDiffMultiplier": 256
+}
